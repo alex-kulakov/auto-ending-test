@@ -15,7 +15,11 @@ namespace MainProject
       for(var i = 0; i < args.Length; i++) {
         Console.WriteLine(args[i]);
       }
-      var abc = new List<string>(2) {"abc", "efg"};
+      var abc = new List<string>(2) {
+        "abc",
+        "efg",
+        "wdlkjg"
+      };
       foreach (var item in abc)
         Console.WriteLine(item);
       Console.WriteLine("bye-bye");
