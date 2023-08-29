@@ -2,6 +2,7 @@ using System;
 using System.Text;
 using System.Linq;
 using System.Collections;
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace MainProject
@@ -14,6 +15,10 @@ namespace MainProject
       for(var i = 0; i < args.Length; i++) {
         Console.WriteLine(args[i]);
       }
+      var abc = new List<string>(2) {"abc", "efg"};
+      foreach (var item in abc)
+        Console.WriteLine(item);
+      Console.WriteLine("bye-bye");
     }
   }
 }
